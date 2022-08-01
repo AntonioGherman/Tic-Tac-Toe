@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tic tac toe</string>
+    <string name="titlu">Antante</string>
+    <string name="modJoc">Alege modul de joc</string>
+    <string name="btnUsor">Usor</string>
+    <string name="btnMediu">Mediu</string>
+    <string name="btnGreu">Greu</string>
+    <string name="mesaj">Parola gresita</string>
+</resources>

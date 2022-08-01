@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/programe/MyApplication2/app/src/main/res/drawable/card.xml" value="0.1625" />
+        <entry key="..\:/programe/MyApplication2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1625" />
+        <entry key="..\:/programe/MyApplication2/app/src/main/res/drawable/ic_wave__2_.xml" value="0.1625" />
+        <entry key="..\:/programe/MyApplication2/app/src/main/res/drawable/icon_foreground.xml" value="0.1625" />
+        <entry key="..\:/programe/MyApplication2/app/src/main/res/drawable/model_buton.xml" value="0.2265" />
+        <entry key="..\:/programe/MyApplication2/app/src/main/res/drawable/model_tabla.xml" value="0.1625" />
+        <entry key="..\:/programe/MyApplication2/app/src/main/res/drawable/reload.xml" value="0.1625" />
+        <entry key="..\:/programe/MyApplication2/app/src/main/res/drawable/reloadbuton.xml" value="0.1625" />
+        <entry key="..\:/programe/MyApplication2/app/src/main/res/drawable/tabla.xml" value="0.2265" />
+        <entry key="..\:/programe/MyApplication2/app/src/main/res/drawable/wave.xml" value="0.1625" />
+        <entry key="..\:/programe/MyApplication2/app/src/main/res/drawable/wave2.xml" value="0.1625" />
+        <entry key="..\:/programe/MyApplication2/app/src/main/res/layout/activity_alegere.xml" value="0.22592592592592592" />
+        <entry key="..\:/programe/MyApplication2/app/src/main/res/layout/activity_info_page.xml" value="0.264" />
+        <entry key="..\:/programe/MyApplication2/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/programe/MyApplication2/app/src/main/res/layout/activity_mod_mediu.xml" value="0.22780797101449277" />
+        <entry key="..\:/programe/MyApplication2/app/src/main/res/layout/activity_mod_usor.xml" value="0.25" />
+        <entry key="..\:/programe/MyApplication2/app/src/main/res/layout/castigator.xml" value="0.264" />
+        <entry key="..\:/programe/MyApplication2/app/src/main/res/layout/mod_multiplayer.xml" value="0.22592592592592592" />
+        <entry key="..\:/programe/MyApplication2/app/src/main/res/layout/o_castiga.xml" value="0.22592592592592592" />
+        <entry key="..\:/programe/MyApplication2/app/src/main/res/layout/pierzator.xml" value="0.22780797101449277" />
+        <entry key="..\:/programe/MyApplication2/app/src/main/res/layout/principal.xml" value="0.25" />
+        <entry key="..\:/programe/MyApplication2/app/src/main/res/layout/remiza.xml" value="0.25416666666666665" />
+        <entry key="..\:/programe/MyApplication2/app/src/main/res/layout/x_castiga.xml" value="0.22592592592592592" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

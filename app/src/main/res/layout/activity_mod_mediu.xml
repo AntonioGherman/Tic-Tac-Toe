@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ModGreu">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="340dp"
+        android:layout_height="350dp"
+        android:backgroundTint="@color/val"
+        android:foregroundGravity="center"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.396" />
+
+    <Button
+        android:id="@+id/buton8"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="12dp"
+
+        android:background="@drawable/model_tabla"
+        android:text=" "
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/buton7"
+        app:layout_constraintTop_toTopOf="@+id/buton7" />
+
+    <Button
+        android:id="@+id/buton0"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/model_tabla"
+        android:fontFamily="sans-serif-medium"
+        android:text=" "
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="@+id/cardView"
+        app:layout_constraintTop_toTopOf="@+id/cardView" />
+
+    <Button
+        android:id="@+id/buton6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/model_tabla"
+        android:text=" "
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="@+id/buton3"
+        app:layout_constraintTop_toBottomOf="@+id/buton3" />
+
+    <Button
+        android:id="@+id/buton7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="12dp"
+        android:background="@drawable/model_tabla"
+        android:text=" "
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/buton6"
+        app:layout_constraintTop_toTopOf="@+id/buton6" />
+
+    <Button
+        android:id="@+id/buton2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="12dp"
+        android:background="@drawable/model_tabla"
+        android:text=" "
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/buton1"
+        app:layout_constraintTop_toTopOf="@+id/buton1" />
+
+    <Button
+        android:id="@+id/buton5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/model_tabla"
+        android:text=" "
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/buton4"
+        app:layout_constraintTop_toBottomOf="@+id/buton1" />
+
+    <Button
+        android:id="@+id/buton1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="12dp"
+        android:background="@drawable/model_tabla"
+        android:text=" "
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/buton0"
+        app:layout_constraintTop_toTopOf="@+id/buton0" />
+
+    <Button
+        android:id="@+id/buton3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/model_tabla"
+        android:text=" "
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="@+id/buton0"
+        app:layout_constraintTop_toBottomOf="@+id/buton0" />
+
+    <Button
+        android:id="@+id/buton4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/model_tabla"
+        android:text=" "
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/buton3"
+        app:layout_constraintTop_toBottomOf="@+id/buton0" />
+
+    <Button
+        android:id="@+id/meniu"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-10dp"
+        android:layout_marginTop="540dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/model_buton"
+        android:onClick="inapoi"
+        android:text="meniu"
+        app:layout_constraintEnd_toStartOf="@+id/jocNou"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/jocNou"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/model_buton"
+        android:onClick="reset"
+        android:text="Joc Nou"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.671"
+        app:layout_constraintStart_toEndOf="@+id/meniu"
+        app:layout_constraintTop_toTopOf="@+id/meniu" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/TextParola"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/parola"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#272626" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
